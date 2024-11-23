@@ -1,0 +1,47 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  color: var(--color-dark);
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.scroll-stop {
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.btn {
+  margin-top: 150px;
+  padding: 10px 20px;
+  max-width: 300px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--color-white);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: var(--color-prime);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
